@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>praktijkopgave</title>
+</head>
+<body>
+    <h1>Inschrijfformulier</h1>
+
+    <form>
+        <fieldset>
+            <legend><h3>Persoonlijke gegevens</h3></legend>
+            
+                <table width="600" border="0">
+                    <tr>
+                    <td width="150"><label for="volledige naam">volledige naam</label></td>
+                    <td width="450"><input type="tekst" id="volledige naam" name="volledige naam"></td></tr><br><br>
+
+                    <tr>
+
+                    <td><label for="geslacht">geslacht</label></td>  
+                    <td><input type="radio"  id="geslacht"  value="man" name="geslacht">Man
+                    <input type="radio"  id="geslacht" value="vrouw" name="geslacht">Vrouw</td></tr><br><br>
+
+                    <tr>     
+                    <td><label for="adres">adres</label></td>
+                    <td><input type="tekst" id="adres" name="adres"></td></tr><br><br>
+
+                    <tr>   
+                    <td><label for="postcode">postcode</label></td>
+                    <td><input type="tekst" id="postcode" name="postcode"></td></tr> <br><br>
+
+                    <tr>   
+                    <td><label for="woonplaats">woonplaats</label></td>
+                    <td><input type="tekst" id="woonplaats" name="woonplaats"></td></tr><br><br>
+
+                    <tr>   
+                    <td><label for="profielfoto">profielfoto</label></td>
+                    <td><input type="file" id="profielfoto" name="profielfoto"></td></tr>
+
+                </table>
+            </fieldset>
+        
+
+    <fieldset>
+        <legend><h3>Inschrijvings informatie</h3></legend>
+    
+    
+    
+        Hoogst genoten opleiding
+        <select name="opleidingsniveau">
+        <option value="" selected>maak hier uw keuze</option>    
+        <option value="vmbo">vmbo</option>
+        <option value="mbo">mbo</option>
+        <option value="hbo">hbo</option>
+        <option value="universitair">universitair</option></select></tr><br><br>
+
+
+         Gewenste cursus:<br><br>
+        
+
+             <input type="checkbox" name="cursus" value="word">word<br>
+             <input type="checkbox" name="cursus" value="excel">excel<br>
+             <input type="checkbox" name="cursus" value="outlook">outlook<br>
+             <input type="checkbox" name="cursus" value="powerpoint">excel<br><br>
+
+             gewenste startdatum
+            <input type="date" id="gewenste startdatum" name="startdatum"><br><br>
+        
+    
+     
+    
+        </fieldset><br>
+    
+<input type="submit" name="verzenden">
+</form>
+</body>
+</html>
